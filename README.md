@@ -1,6 +1,6 @@
 # landing-page
 
-## A practice for making a landing webpage using HTML and CSS.
+## Odin bootcamp project as practice for making a landing webpage using HTML and CSS.
 
 ## The webpage is a Spider-man Marvel superhero fan page and contains a content about Spider-man.
  

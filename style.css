@@ -1,0 +1,176 @@
+
+
+
+body {
+    margin: 0;
+    font-family: 'Roboto','sans-serif';
+}
+
+
+
+header,
+footer {
+    background-color: #1f2937;
+}
+
+.logo-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover,
+a:focus-visible {
+    color: #b9c2d6;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap:30px;
+
+}
+
+h1 {
+    color:#f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.header-content {
+    padding-block: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 4%;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    inline-size: 31%;
+}
+
+.header-content img {
+    inline-size: 35%;
+}
+
+a,
+.header-container p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header-container button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+    max-inline-size: 100px;
+    border-radius: 7px;
+}
+
+
+
+h2 {
+    margin-block: 60px ;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info section {
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.info section img {
+    max-block-size: 112px;
+}
+
+
+.quote {
+    margin-block: 70px;
+    background-color: #e5e7eb;
+    padding-block: 30px;
+}
+
+.quote div {
+    max-width: 250px;
+    margin-inline: auto;
+
+}
+
+.quote .speaker {
+    text-align: end;
+}
+
+.adv-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-block-end: 70px ;
+}
+
+.adv {
+    background-color: #3882f6;
+    padding-inline: 100px;
+    padding-block: 20px;
+    margin-inline: 50px;
+    color: #f9faf8;
+
+    border-radius: 7px;
+
+    display: flex;
+    align-items: center;
+    gap:100px;
+
+}
+
+.adv-container {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    gap:8px
+}
+
+.adv-container p {
+    margin: 0;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+}
+
+.adv button {
+
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+    border-radius: 7px;
+    border-color: #f9faf8;
+    padding-inline: 20px;
+    white-space: nowrap;
+
+}
+
+
+.footer {
+    color: #f9faf8;
+    text-align: center;
+    padding-block: 16px;
+}
